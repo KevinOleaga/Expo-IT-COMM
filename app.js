@@ -47,7 +47,6 @@ redisClient.on('connect', function () {
     console.log('Connected to Redis...');
 });
 
-
 // Methods
 
 // Add User Page

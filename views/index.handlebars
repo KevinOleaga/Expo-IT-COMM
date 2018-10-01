@@ -1,6 +1,6 @@
 {{#if error}} <span>{{error}}</span>{{/if}}
 <div class="box">
-  <form class="steps-form" method="POST" action="/user/add">
+  <form class="steps-form" method="post" action="/user/add">
     <div class="step-form next-step" data-next=".step-form.step-two">
       <img src="/images/icon.png" class="icon">
       <p class="custom_p animated infinite pulse delay-2s">Presione para comenzar</p>
@@ -133,7 +133,7 @@
     </div>
     <div class="step-form step-thirhteen">
       <div class="final">
-        <input type="submit" class="btn btn-sm animated-button thar-three" value="INICIAR EXPERIENCIA">
+        <input type="submit" onclick="GetData();" class="btn btn-sm animated-button thar-three" value="INICIAR EXPERIENCIA">
       </div>
     </div>
   </form>

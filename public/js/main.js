@@ -6,7 +6,7 @@ window.onload = function () {
   });
 };
 
-function GetData() {
+function GetData(){
   var year = document.getElementById("year").value;
   var email = document.getElementById("email").value;
   var range_1 = document.getElementById("range_1").value;
@@ -20,7 +20,5 @@ function GetData() {
   var range_9 = document.getElementById("range_9").value;
   var range_10 = document.getElementById("range_10").value;
 
-
-  methods.InsertData('year', 'email', 'range_1', 'range_2', 'range_3', 'range_4', 'range_5', 'range_6', 'range_7', 'range_8', 'range_9', 'range_10');
+  methods.InsertData(email, year, range_1, range_2, range_3, range_4, range_5, range_6, range_7, range_8, range_9, range_10);  
 }
-
