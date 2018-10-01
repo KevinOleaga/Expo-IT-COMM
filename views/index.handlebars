@@ -1,0 +1,140 @@
+{{#if error}} <span>{{error}}</span>{{/if}}
+<div class="box">
+  <form class="steps-form" method="POST" action="/user/add">
+    <div class="step-form next-step" data-next=".step-form.step-two">
+      <img src="/images/icon.png" class="icon">
+      <p class="custom_p animated infinite pulse delay-2s">Presione para comenzar</p>
+    </div>
+    <div class="step-form step-two" data-next=".step-form.step-three">
+      <br><br>
+      <div class="form-group">
+        <input id="year" type="text" class="some form-control js-month-picker" title="Seleccione su año de nacimiento"
+          placeholder="Seleccione su año de nacimiento">
+      </div>
+      <br>
+      <div class="form-group">
+        <input id="email" autocomplete="off" type="email" class="some form-control" title="Dígite su correo electrónico"
+          placeholder="Dígite su correo electrónico">
+      </div>
+      <br>
+      <div class="form-group">
+        <a href="#" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-three" data-next=".step-form.step-four">
+      <h2>Pregunta #1</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_1" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_1();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-four" data-next=".step-form.step-five">
+      <h2>Pregunta #2</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_2" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_2();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-five" data-next=".step-form.step-six">
+      <h2>Pregunta #3</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_3" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_3();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-six" data-next=".step-form.step-seven">
+      <h2>Pregunta #4</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_4" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_4();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-seven" data-next=".step-form.step-eight">
+      <h2>Pregunta #5</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_5" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_5();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-eight" data-next=".step-form.step-nine">
+      <h2>Pregunta #6</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_6" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_6();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-nine" data-next=".step-form.step-teen">
+      <h2>Pregunta #7</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_7" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_7();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-teen" data-next=".step-form.step-eleven">
+      <h2>Pregunta #8</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_8" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_8();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-eleven" data-next=".step-form.step-twelve">
+      <h2>Pregunta #9</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_9" class="percent">50%</output>
+
+        <a href="#" onclick="Reset_9();" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-twelve" data-next=".step-form.step-thirhteen">
+      <h2>Pregunta #10</h2>
+      <br><br>
+      <div class="custom">
+        <input type="range" value="50" step="1" min="0" max="100">
+        <br>
+        <output id="range_10" class="percent">50%</output>
+
+        <a href="#" class="custom_btn btn btn-sm animated-button thar-three next-step">SIGUIENTE</a>
+      </div>
+    </div>
+    <div class="step-form step-thirhteen">
+      <div class="final">
+        <input type="submit" class="btn btn-sm animated-button thar-three" value="INICIAR EXPERIENCIA">
+      </div>
+    </div>
+  </form>
+</div>

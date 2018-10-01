@@ -1,3 +1,5 @@
+const methods = require('./app.js');
+
 window.onload = function () {
   new Picker(document.querySelector('.js-month-picker'), {
     format: 'YYYY',
@@ -7,11 +9,18 @@ window.onload = function () {
 function GetData() {
   var year = document.getElementById("year").value;
   var email = document.getElementById("email").value;
-  var step1 = document.getElementById("amount").value;
-  var step2 = document.getElementById("amount2").value;
-  var step3 = document.getElementById("amount3").value;
-  var step4 = document.getElementById("amount4").value;
-  var step5 = document.getElementById("amount5").value;
-  var step6 = document.getElementById("amount6").value;
+  var range_1 = document.getElementById("range_1").value;
+  var range_2 = document.getElementById("range_2").value;
+  var range_3 = document.getElementById("range_3").value;
+  var range_4 = document.getElementById("range_4").value;
+  var range_5 = document.getElementById("range_5").value;
+  var range_6 = document.getElementById("range_6").value;
+  var range_7 = document.getElementById("range_7").value;
+  var range_8 = document.getElementById("range_8").value;
+  var range_9 = document.getElementById("range_9").value;
+  var range_10 = document.getElementById("range_10").value;
+
+
+  methods.InsertData('year', 'email', 'range_1', 'range_2', 'range_3', 'range_4', 'range_5', 'range_6', 'range_7', 'range_8', 'range_9', 'range_10');
 }
 
