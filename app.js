@@ -1,5 +1,5 @@
 const express = require('express');
-var todoController = require('./controller/todoController');
+var todoController = require('./controller/indexController');
 
 let app = express();
 

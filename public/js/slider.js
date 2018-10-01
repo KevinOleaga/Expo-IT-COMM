@@ -21,6 +21,7 @@ function Reset_1(){
   document.getElementById("range_9").innerHTML = "50%";
   document.getElementById("range_10").innerHTML = "50%";
 }
+
 function Reset_2(){
   document.getElementById("range_3").innerHTML = "50%";
   document.getElementById("range_4").innerHTML = "50%";
